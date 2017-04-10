@@ -12,9 +12,10 @@ TARGET = sketchbook
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    alfa.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    alfa.h
 
 FORMS    += mainwindow.ui
